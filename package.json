@@ -1,0 +1,15 @@
+{
+  "name": "morrunwind",
+  "version": "1.0.0",
+  "description": "Launch Morrowind and every other executables needed",
+  "main": "index.js",
+  "bin": {
+    "morrunwind": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pkg": "pkg -t node8-win .\\package.json"
+  },
+  "author": "Magnaar",
+  "license": "ISC"
+}
